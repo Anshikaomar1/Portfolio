@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.header {
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.page1 {
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    height: 8vh;
+    width: 20vw;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    align-content: center;
+    color: #0e2431;
+    font-family: arial;
+}
+
+.links {
+    height: 8vh;
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+    font-weight: bold;
+    color: #0e2431;
+}
+
+.cn1 {
+    height: 90vh;
+    width: 40vw;
+    align-content: center;
+}
+
+.cn2 {
+    height: 90vh;
+    width: 40vw;
+
+}
+
+.hello {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(247, 193, 30)
+}
+
+.firstn {
+    font-size: 70px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 15px;
+}
+
+.profession {
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.whatyouare {
+    font-size: 33px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 15px;
+}
+
+.lastn {
+    font-size: 70px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 15px;
+}
+
+.worksbtn {
+    height: 7vh;
+    width: 8vw;
+    border-radius: 25px;
+    border: 1px solid white;
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.sdh {
+    color: rgb(247, 193, 30);
+}
+
+.cn2 img {
+    position: absolute;
+    top: 23vh;
+    left: 55vw;
+    border-radius: 50%;
+    mix-blend-mode: multiply;
+
+}
+
+.linkedin {
+    height: 7vh;
+    width: 8vw;
+    border-radius: 25px;
+    border: 1px solid rgb(247, 193, 30);
+    text-align: center;
+    align-content: center;
+    color: white;
+    background: rgb(247, 193, 30);
+    font-weight: bolder;
+    margin-top: 20px;
+
+}
+
+.btn {
+    display: flex;
+}
+
+a {
+    color: #0e2431;
+}
+
+.name:hover {
+    color: plum;
+}
